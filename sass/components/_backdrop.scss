@@ -12,8 +12,9 @@
 		visibility: hidden;
 		opacity: 0;
 		pointer-events: none;
-		&.modal {
-			transform: translate(-50%, -50%) scale(0) rotate(180deg);
-		}
 	}
+}
+
+.backdrop.is-hidden .modal {
+	transform: translate(-50%, -50%) scale(0) rotate(180deg);
 }
