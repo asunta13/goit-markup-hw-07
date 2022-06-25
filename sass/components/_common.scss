@@ -1,0 +1,29 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.03em;
+}
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+.title {
+	margin-bottom: 50px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	color: var(--title-color);
+}

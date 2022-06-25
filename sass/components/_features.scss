@@ -1,0 +1,40 @@
+.features.section {
+	padding-bottom: 0px;
+}
+.features-list {
+	display: flex;
+	margin-right: -30px;
+}
+.features__item {
+	flex-basis: calc(100% / 4 - 30px);
+	margin-right: 30px;
+}
+
+.features__item.antenna::before {
+	@extend %features__item;
+	background-image: url(../images/antenna.svg);
+}
+
+.features__item.clock::before {
+	@extend %features__item;
+	background-image: url(../images/clock.svg);
+}
+.features__item.diagram::before {
+	@extend %features__item;
+	background-image: url(../images/diagram.svg);
+}
+.features__item.astronaut::before {
+	@extend %features__item;
+	background-image: url(../images/astronaut.svg);
+}
+.features__title {
+	margin-bottom: 10px;
+	@include font(700, 14px, 1.14);
+	text-transform: uppercase;
+	color: var(--main-color);
+}
+
+.features__text {
+	@include font(400, 14px, 1.71);
+	color: var(--add-color);
+}
